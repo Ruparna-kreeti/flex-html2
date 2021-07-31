@@ -1,48 +1,44 @@
-.header {
-  position: fixed;
-  top: 0;
+.color {
   background-color: red;
   color: white;
-  width: 100vw;
-  height: 10vh;
 }
 .container {
-  margin-top: 12vh;
-  margin-right: 17vw;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: space-around;
-  height: 70vh;
-  color: white;
-}
-.container .small-box {
-  width: 450px;
-  height: 200px;
-  background-color: red;
-  margin: 10px;
-}
-.container .main-content {
-  height: 400px;
-  background-color: red;
-  flex-grow: 1;
-}
-.sidebar {
-  position: fixed;
-  background-color: red;
-  color: white;
-  width: 15vw;
-  height: 70vh;
-  right: 0;
-  top: 12vh;
+  width: 100vw;
+  gap: 15px;
 }
 
+.content {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+}
+.mid-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.small-box-container {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+}
+.small1,
+.small2,
+.small3 {
+  width: 300px;
+  height: 300px;
+}
+.main-container {
+  width: 70vw;
+  height: 260px;
+}
+.sidebar {
+  width: 300px;
+}
+.header,
 .footer {
-  position: fixed;
-  color: white;
-  background-color: red;
-  width: 100vw;
-  height: 10vh;
-  bottom: 0;
+  height: 15vh;
 }
